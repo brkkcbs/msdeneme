@@ -25,6 +25,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(1)", "http://local
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{78B9E82C-6806-4317-99BA-B6E405AEA2E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,5 +37,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE51E063-1F54-4482-8EF9-487C519CF361} = {78B9E82C-6806-4317-99BA-B6E405AEA2E2}
 	EndGlobalSection
 EndGlobal
